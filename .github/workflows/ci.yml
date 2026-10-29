@@ -1,0 +1,44 @@
+name: CI
+
+# Validates iOS Product Base itself — not a consumer. Runs the commands in DEVELOPMENT.md.
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+permissions:
+  contents: read
+
+concurrency:
+  group: ci-${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  verify:
+    name: Test packages, build demo
+    runs-on: macos-26
+    env:
+      DESTINATION: platform=iOS Simulator,name=iPhone 17
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Select Xcode
+        run: sudo xcode-select -s /Applications/Xcode_26.app || xcodebuild -version
+
+      - name: Test root package
+        run: xcodebuild test -scheme ProductBase-Package -destination "$DESTINATION"
+
+      - name: Test Ads extension
+        working-directory: Extensions/Ads
+        run: xcodebuild test -scheme ProductBaseAds -destination "$DESTINATION"
+
+      - name: Build Firebase extension
+        working-directory: Extensions/TelemetryFirebase
+        run: xcodebuild build -scheme ProductBaseTelemetryFirebase -destination 'generic/platform=iOS Simulator'
+
+      - name: Build demo
+        run: >
+          xcodebuild build -project Demo/ProductBaseDemo.xcodeproj -scheme ProductBaseDemo
+          -destination 'generic/platform=iOS Simulator' CODE_SIGNING_ALLOWED=NO

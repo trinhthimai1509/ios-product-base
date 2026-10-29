@@ -1,0 +1,29 @@
+# --- Build output -----------------------------------------------------------
+.build/
+build/
+DerivedData/
+*.xcresult
+
+# --- Xcode / SwiftPM user state ---------------------------------------------
+xcuserdata/
+*.xcuserstate
+.swiftpm/
+# Library packages do not pin their dependencies; consumers resolve them.
+Package.resolved
+Demo/ProductBaseDemo.xcodeproj/project.xcworkspace/xcshareddata/swiftpm/Package.resolved
+
+# --- SECRETS: never commit any of these -------------------------------------
+GoogleService-Info.plist
+*.p12
+*.mobileprovision
+*.cer
+Secrets.xcconfig
+*.env
+.env
+.env.*
+AuthKey_*.p8
+
+# --- OS ---------------------------------------------------------------------
+.DS_Store
+# AppleDouble files written on exFAT/FAT external drives
+._*

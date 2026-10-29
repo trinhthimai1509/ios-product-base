@@ -1,0 +1,34 @@
+{
+  "sourceLanguage" : "en",
+  "strings" : {
+    "onboarding.finish" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Get started" } },
+        "vi" : { "stringUnit" : { "state" : "translated", "value" : "Bắt đầu" } }
+      }
+    },
+    "onboarding.next" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Next" } },
+        "vi" : { "stringUnit" : { "state" : "translated", "value" : "Tiếp" } }
+      }
+    },
+    "onboarding.pageIndicator %lld %lld" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Page %1$lld of %2$lld" } },
+        "vi" : { "stringUnit" : { "state" : "translated", "value" : "Trang %1$lld / %2$lld" } }
+      }
+    },
+    "onboarding.skip" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Skip" } },
+        "vi" : { "stringUnit" : { "state" : "translated", "value" : "Bỏ qua" } }
+      }
+    }
+  },
+  "version" : "1.0"
+}

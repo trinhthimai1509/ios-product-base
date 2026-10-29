@@ -1,0 +1,31 @@
+{
+  "identifier" : "6B1E2C1A",
+  "nonRenewingSubscriptions" : [],
+  "products" : [
+    {
+      "displayPrice" : "2.99",
+      "familyShareable" : false,
+      "internalID" : "6743000001",
+      "localizations" : [
+        {
+          "description" : "Remove ads and unlock every Pro feature.",
+          "displayName" : "Product Base Pro",
+          "locale" : "en_US"
+        }
+      ],
+      "productID" : "dev.sautao.productbase.demo.pro",
+      "referenceName" : "Pro",
+      "type" : "NonConsumable"
+    }
+  ],
+  "settings" : {
+    "_applicationInternalID" : "6743000000",
+    "_developerTeamID" : "",
+    "_failTransactionsEnabled" : false,
+    "_locale" : "en_US",
+    "_storefront" : "USA",
+    "_storeKitErrors" : []
+  },
+  "subscriptionGroups" : [],
+  "version" : { "major" : 4, "minor" : 0 }
+}

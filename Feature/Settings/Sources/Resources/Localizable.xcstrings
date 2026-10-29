@@ -1,0 +1,34 @@
+{
+  "sourceLanguage" : "en",
+  "strings" : {
+    "settings.theme" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Appearance" } },
+        "vi" : { "stringUnit" : { "state" : "translated", "value" : "Giao diện" } }
+      }
+    },
+    "settings.theme.dark" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Dark" } },
+        "vi" : { "stringUnit" : { "state" : "translated", "value" : "Tối" } }
+      }
+    },
+    "settings.theme.light" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Light" } },
+        "vi" : { "stringUnit" : { "state" : "translated", "value" : "Sáng" } }
+      }
+    },
+    "settings.theme.system" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "System" } },
+        "vi" : { "stringUnit" : { "state" : "translated", "value" : "Theo hệ thống" } }
+      }
+    }
+  },
+  "version" : "1.0"
+}

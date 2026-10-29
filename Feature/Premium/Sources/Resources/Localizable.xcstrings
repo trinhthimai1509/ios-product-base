@@ -1,0 +1,83 @@
+{
+  "sourceLanguage" : "en",
+  "strings" : {
+    "premium.buy %@" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Unlock for %@" } },
+        "vi" : { "stringUnit" : { "state" : "translated", "value" : "Mở khoá với giá %@" } }
+      }
+    },
+    "premium.message.alreadyOwned" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "You already own this." } },
+        "vi" : { "stringUnit" : { "state" : "translated", "value" : "Bạn đã sở hữu gói này." } }
+      }
+    },
+    "premium.message.completed" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Thank you! Premium is unlocked." } },
+        "vi" : { "stringUnit" : { "state" : "translated", "value" : "Cảm ơn bạn! Đã mở khoá Premium." } }
+      }
+    },
+    "premium.message.couldNotCheck" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Couldn't reach the App Store. Check your connection and try again." } },
+        "vi" : { "stringUnit" : { "state" : "translated", "value" : "Không kết nối được App Store. Hãy kiểm tra mạng và thử lại." } }
+      }
+    },
+    "premium.message.failed" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "The purchase couldn't be completed. You have not been charged." } },
+        "vi" : { "stringUnit" : { "state" : "translated", "value" : "Không thể hoàn tất giao dịch. Bạn chưa bị trừ tiền." } }
+      }
+    },
+    "premium.message.nothingToRestore" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "No previous purchase was found for this Apple Account." } },
+        "vi" : { "stringUnit" : { "state" : "translated", "value" : "Không tìm thấy giao dịch trước đây cho Tài khoản Apple này." } }
+      }
+    },
+    "premium.message.pending" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Your purchase is pending approval." } },
+        "vi" : { "stringUnit" : { "state" : "translated", "value" : "Giao dịch của bạn đang chờ phê duyệt." } }
+      }
+    },
+    "premium.ok" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "OK" } },
+        "vi" : { "stringUnit" : { "state" : "translated", "value" : "OK" } }
+      }
+    },
+    "premium.owned" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Premium is active" } },
+        "vi" : { "stringUnit" : { "state" : "translated", "value" : "Premium đang hoạt động" } }
+      }
+    },
+    "premium.priceLoading" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Loading price…" } },
+        "vi" : { "stringUnit" : { "state" : "translated", "value" : "Đang tải giá…" } }
+      }
+    },
+    "premium.restore" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Restore Purchases" } },
+        "vi" : { "stringUnit" : { "state" : "translated", "value" : "Khôi phục giao dịch" } }
+      }
+    }
+  },
+  "version" : "1.0"
+}
